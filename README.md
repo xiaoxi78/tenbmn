@@ -36,7 +36,8 @@ jupyter
 
 模型分享：
 
-BMNswdt.png
+![image](https://github.com/xiaoxi78/tenbmn/blob/main/BMNswdt.png)
+
 ## 项目结构
 > 一目了然的项目结构能帮助更多人了解，目录树以及设计思想都很重要~
 ```
