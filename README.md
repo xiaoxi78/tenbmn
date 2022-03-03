@@ -35,8 +35,8 @@ jupyter
 本赛题中的数据包含912条ppTSM抽取的视频特征，特征保存为pkl格式，文件名对应视频名称，读取pkl之后以(num_of_frames, 2048)向量形式代表单个视频特征。其中num_of_frames是不固定的，同时数量也比较大，所以pkl的文件并不能直接用于训练。同时由于乒乓球每个动作时间非常短，为了可以让模型更好的识别动作，所以这里将数据进行分割。
 
 模型分享：
-
-![image](https://github.com/xiaoxi78/tenbmn/blob/main/BMNswdt.png)
+![image](https://img-blog.csdnimg.cn/5dd57a40b9c3418ba18c5a988b2fd668.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAbWVudG9yemY=,size_20,color_FFFFFF,t_70,g_se,x_16)
+![image](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9tbWJpei5xcGljLmNuL21tYml6X3BuZy9zS2lhMUZLRmlhZmdnZVhscThKWlhjRTRrbzBUWm05ZzgxZUhiSE5XN0VuUFNZZzFpYVJpYktQaFdkMTFNamdSOFJxR0tPSG5HRXc1NWYxSGliaWFWQTBYVGg2QS82NDA?x-oss-process=image/format,png)
 
 ## 项目结构
 > 一目了然的项目结构能帮助更多人了解，目录树以及设计思想都很重要~
@@ -48,5 +48,5 @@ jupyter
 ```
 ## 使用方式
 > 
-A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/usercenter)  
+A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/projectdetail/3517534?contributionType=1)  
 B：直接FORK此项目，还有免费算力使用，非常方便！
